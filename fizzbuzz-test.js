@@ -1,7 +1,7 @@
 function fizzbuzz(i) {
-  for (let j = 0; j < i; j++) {
+  for (let j = 1; j <= i; j++) {
     if (j % 3 == 0 && j % 5 == 0) {
-      console.log('FizzBuzz');
+      console.log(`'FizzBuzz'`);
     } else if (j % 3 == 0) {
       console.log('Fizz');
     } else if (j % 5 == 0) {
